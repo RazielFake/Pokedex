@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <section class="globalcontainer">
+        <div class="left box">
+
+            <div class="leftTop">
+                <!-- LEFT TOP BOTTOM-PART DESIGN -->
+                <div class="leftTop-bottom boxLayer">
+                    <div class="ltop-b1"></div>
+                    <div class="ltop-b2"></div>
+                    <div class="ltop-b3"></div>
+                </div>
+                
+                <!-- LEFT TOP TOP-PART DESIGN-->
+                <div class="leftTop-Top boxLayer">
+                    <div class="ltop-t1">
+                        <!-- SPHERE -->
+                            <section class="stage">
+                            <figure class="ball">
+                                <div class="numberCont">
+                                    <label for="" class="number" id="number"></label>
+                                </div>
+                            <span class="shadow"></span></figure>
+                            </section>
+                    </div>
+                    <div class="ltop-t2"></div>
+                    <div class="ltop-t3"></div>
+                </div>
+            </div>
+            
+            <div class="leftCenter">
+                <div class="center-bot"></div>
+                <div class="center-top"></div>
+                <div class="centerScreen-bot"></div>
+                <div class="centerScreen-bot2"></div>
+                <div class="centerScreen">
+                    <img src="./assets/img/pokeball.png" alt="Pokemon Image" class="pokeImg" id="pokeImg">
+                </div>
+            </div>
+
+            <div class="leftBottom">
+                <div class="bottom-bot"></div>
+                <div class="bottom-top"></div>
+                <div class="search">
+                    <div class="Name">
+                        <input type="text" name="pokeName" id="pokeName" placeholder="Ex: Pikachu">
+                    </div>
+                    <div class="searchButton">
+                        <button class="searchPokemon" onclick="fetchPokemon()">
+                            Search Pokémon
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="center" >
+            <div class="centerContainer">
+                <div class="bottomSphere"></div>
+            </div>
+        </div>
+
+
+
+        <div class="right box">
+
+
+            <div class="rightTop">
+                <div class="rightTop-p1">
+                    <div class="rightTop-bot1"></div>
+                    <div class="rightTop-bot2"></div>
+                    <div class="rightTop-bot3"></div>
+                </div>
+                <div class="rightTop-p2">
+                    <div class="rightTop-top1"></div>
+                    <div class="rightTop-top2"></div>
+                    <div class="rightTop-top3"></div>
+                </div>
+                <div class="rightTop-p3">
+                    <div class="rightTop-case1"></div>
+                    <div class="rightTop-case2"></div>
+                    <div class="rightTop-line"></div>
+                </div>
+            </div>
+
+
+
+            <div class="rightCenter">
+                <div class="centerCase"></div>
+                <div class="centerBot"></div>
+                <div class="centertop"></div>
+                <div class="rightCenter-screen">
+                    <div class="info">
+                        <div class="typeInfo">
+                            <div class="type1" id="type1">
+                                <label for="mainType" id="mainType"></label>
+                            </div>
+                            <div class="type2" id="type2">
+                                <label for="mainType" id="secType"></label>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <label for="description" id="description" class="description"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightCenter-line"></div>
+            </div>
+
+
+            <div class="rightBottom">
+                <div class="botCase">
+                    <div class="shiny">
+                        <input type="checkbox" name="shiny" id="shinyCheck">
+                        <label for="shiny" class="labShiny"> Shiny</label><br>
+                    </div>
+                    <div class="female">
+                        <input type="checkbox" name="female" id="femaleChek">
+                        <label for="female" class="labFem"> Female</label><br>
+                    </div>
+                </div>
+                <div class="rightBot1"></div>
+                <div class="rightBot2"></div>
+                <div class="rightBot-line"></div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./js/scriptDex.js"></script>
+</footer>
+</html>
