@@ -1,0 +1,586 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.globalContainer{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.box{
+    width: 50%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.boxLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*LEFT DESIGN*/
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #951828;
+    border-radius: 5% 5% 5% 5%;
+    z-index: 1;
+}
+/*LEFT TOP-BOTTOM PART DESIGN*/
+.leftTop{
+    background-color: #bd0f34;
+    border-radius: 35px 15px 0 0;
+    width: 98%;
+    margin-left: 2%;
+    height: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.leftTop-bottom{
+    display: flex;
+    flex-direction: row;
+    border-radius: 35px 15px 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.ltop-b1{
+    background-color: #810a1e;
+    width: 40%;
+    height: 100%;
+    border-radius: 35px 0 0 0;
+}
+.ltop-b2{
+    transform: skewY(-20deg);
+    border-radius: 0 0 0 0;
+    margin-top: 7%;
+    width: 30%;
+    height: 35%;
+    background-color: #810a1e;
+}
+.ltop-b3{
+    width: 30%;
+    height: 43.5%;
+    background-color: #810a1e;
+    border-radius: 0 15px 0 0;
+}
+.leftTop-Top{
+    display: flex;
+    flex-direction: row;
+    border-radius: 35px 15px 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.ltop-t1{
+    background-color: #ce1131;
+    width: 40%;
+    height: 85%;
+    border-radius: 35px 0 0 0;
+}
+.ltop-t2{
+    transform: skewY(-20deg);
+    border-radius: 0 0 0 0;
+    margin-top: -5.5%;
+    width: 30%;
+    height: 85%;
+    background-color: #ce1131;
+}
+.ltop-t3{
+    width: 30%;
+    height: 28%;
+    background-color: #ce1131;
+    border-radius: 0 15px 0 0;
+}
+/*LEFT CENTER PART*/
+.leftCenter{
+    height: 55%;
+    width: 100%;
+    position: relative;
+}
+.center-bot{
+    height: 100%;
+    margin-left: 2%;
+    width: 98%;
+    position: absolute;
+    background-color: #ce1131;
+}
+.center-top{
+    height: 100%;
+    margin-left: 4%;
+    width: 96%;
+    border-radius: 25px 0 0 0;
+    position: absolute;
+    background-color: #bd0f34;
+    z-index: 3;
+}
+.centerScreen-bot{
+    height: 80%;
+    width: 76%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 25px 25px 25px 100px;
+    position: absolute;
+    z-index: 4;
+    background-color: #6a6a72;
+}
+.centerScreen-bot2{
+    height: 77%;
+    width: 74%;
+    margin-top: 5%;
+    margin-left: 12%;
+    border-radius: 25px 25px 25px 90px;
+    position: absolute;
+    z-index: 5;
+    background-color: #dedede;
+}
+.centerScreen{
+    height: 65%;
+    width: 65%;
+    margin-top: 8%;
+    margin-left: 17%;
+    border-radius: 25px 25px 25px 25px;
+    position: absolute;
+    z-index: 6;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.pokeImg{
+    height: 100%;
+    width: 70%;
+}
+/*LEFT BOTTOM PART DESIGN*/
+.leftBottom{
+    width: 100%;
+    height: 25%;
+    border-radius: 0 0 0 35px;
+    position: relative;
+}
+.bottom-bot{
+    height: 90%;
+    margin-left: 2%;
+    width: 98%;
+    position: absolute;
+    border-radius: 0 0 35px 35px;
+    background-color: #ce1131;
+}
+.bottom-top{
+    height: 80%;
+    margin-left: 4%;
+    width: 90%;
+    border-radius: 0 0 0 30px;
+    position: absolute;
+    background-color: #bd0f34;
+    z-index: 3;
+}
+.search{
+    height: 80%;
+    margin-left: 4%;
+    width: 96%;
+    border-radius: 0 0 0 30px;
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Name{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchButton{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/*RIGHT PART*/
+.right{
+    margin-top: 4%;
+    height: 87%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;  
+    display: flex;
+    flex-direction: column
+}
+/*RIGHT TOP PART DESIGN*/
+/*40-30-30*/
+.rightTop{
+    height: 20%;
+    position: relative;
+}
+.rightTop-p1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.rightTop-bot1{
+    height: 35%;
+    width: 28%;
+    margin-left: 3%;
+    margin-top: .5%;
+    background-color: #951828;
+    z-index: 1;
+}
+.rightTop-bot2{
+    height: 25%;
+    width: 34%;
+    margin-top: 8%;
+    transform: skewY(20deg);
+    background-color: #951828;
+    z-index: 1;
+}
+.rightTop-bot3{
+    margin-top: 12%;
+    height: 35%;
+    width: 40%;
+    background-color: #951828;
+    z-index: 1;
+}
+.rightTop-p2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+}
+.rightTop-top1{
+    width: 30%;
+    height: 20%;
+    background-color: #ce1131;
+}
+.rightTop-top2{
+    width: 30%;
+    height: 20%;
+    transform: skewY(20deg);
+    margin-top: 5.5%;
+    background-color: #ce1131;
+}
+.rightTop-top3{
+    width: 40%;
+    height: 20%;
+    margin-top: 10.8%;
+    background-color: #ce1131;
+}
+.rightTop-p3{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.rightTop-case1{
+    height: 100%;
+    width: 50%;
+    background-color: #ce1131;
+}
+.rightTop-case2{
+    width: 0;
+    height: 0;
+    margin-top: 1%;
+    border-left: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 112px solid #ce1131;
+}
+/*#ce1131*/
+.rightTop-line{
+    height: 100%;
+    margin-left: 5%;
+    width: .8%;
+    position: absolute;
+    background-color: #951828;
+}
+
+
+/*RIGHT CENTER DESIGN*/
+.rightCenter{
+    height: 55%;
+    background-color: #ce1131;
+    position: relative;
+}
+.centerBot{
+    height: 100%;
+    width: 5%;
+    margin-left: 95%;
+    background-color: #951828;
+    position: absolute;
+    z-index: 2;
+}
+.centertop{
+    height: 110%;
+    width: 3%;
+    margin-left: 97%;
+    margin-top: -4%;
+    background-color: #ce1131;
+    position: absolute;
+    z-index: 3;
+}
+.rightCenter-screen{
+    width: 70%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 15px;
+    background-color: #032d29;
+    position: absolute;
+    z-index: 3;
+}
+.rightCenter-line{
+    height: 100%;
+    margin-left: 3%;
+    width: .5%;
+    position: absolute;
+    background-color: #951828;
+}
+
+
+/*RIGHT BOTTOM DESIGN*/
+.rightBottom{
+    height: 25%;
+    border-radius: 0 0 25px 0;
+    background-color: #ce1131;
+    position: relative;
+}
+.rightBot1{
+    width: 2%;
+    height: 90%;
+    margin-left: 95%;
+    border-radius: 0 0 35px 0;
+    position: absolute;
+    background-color: #951828;
+}
+.rightBot2{
+    width: 93%;
+    height: 2%;
+    margin-left: 3%;
+    margin-top: 18%;
+    position: absolute;
+    background-color: #951828;
+}
+.rightBot-line{
+    height: 90%;
+    margin-left: 3%;
+    width: .5%;
+    position: absolute;
+    background-color: #951828;
+}
+/*BOT SEARCH FILTERS*/
+.botCase{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.shiny{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.female{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CENTER PART DESIGN*/
+.center{
+    width: 5%;
+    margin-top: 4%;
+    height: 91%;
+    margin-left: 45%;
+    position: absolute;
+    border-radius: 25px;
+    z-index: 1;
+    background-color: #a60c26;
+}
+.centerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.bottomSphere{
+    width: 100%;
+    height: 8%;
+    margin-top: 790%;
+    border-radius: 50%;
+    background-color: #790d1f;
+    position: absolute;
+    z-index: 9;
+}
+
+/*INPUTS*/
+input[type="text"]{
+    font-size:20px;
+}
+.searchPokemon{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #242424;
+    border: none;
+    border-radius: 15px;
+    box-shadow: -5px 5px black;
+}
+.searchPokemon:active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.labShiny, .labFem{
+    margin-left: 5%;
+    font-size: 20px;
+}
+#shinyCheck, #femaleChek{
+    height: 25px;
+    width: 25px;
+    background-color: #eee;  
+}
+
+/*INFO DESIGN*/
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.typeInfo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.type1{ 
+    height: 100%;
+    width: 50%;
+    border-radius: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.type2{ 
+    height: 100%;
+    width: 50%;
+    border-radius: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainType, #secType{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.description{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+/*SPHERES*/
+.ball {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    border-radius: 50%;
+    margin-top: -4%;
+    position: relative;
+    background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+  }
+  .ball:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    -webkit-filter: blur(5px);
+    z-index: 2;
+  }
+  
+  .ball .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  -webkit-transform: rotateX(90deg) translateZ(-150px);
+  -moz-transform: rotateX(90deg) translateZ(-150px);
+  -ms-transform: rotateX(90deg) translateZ(-150px);
+  -o-transform: rotateX(90deg) translateZ(-150px);
+  transform: rotateX(90deg) translateZ(-150px);
+  z-index: -1;
+  }
+  .stage {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    -o-perspective: 1200px;
+    perspective: 1200px;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+  }
+.numberCont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+      font-size: 40px;
+      color: black;
+  }
