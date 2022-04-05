@@ -1,5 +1,5 @@
 # Pokedex
-As part of the course Innovacción from Microsoft I developed a Pokédex using HTML, CSS, JS and the [PokeApi](https://pokeapi.co/?ref=hackernoon.com)
+As part of the LaunchX Program from Innovacción by Microsoft, I developed a Pokédex using HTML, CSS, JS and the [PokeApi](https://pokeapi.co/?ref=hackernoon.com)
 The Pokédex was developed for a resolution of 1366 X 768, so maybe the Pokédex components could experiment some missplaces. 
 
 Como parte del curso Innovacción de Microsoft desarrollé una Pokédex usando HTML, CSS, JS y la PokéAPI [enlace].
